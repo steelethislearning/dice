@@ -1,5 +1,5 @@
 
-import dicelib
+from dicelib import dicelib
 
 
 # This is a good test with Nose. (For reference)
