@@ -62,9 +62,9 @@ class DPercentile(Die):
         self.tensDice = DTen()
 
     def roll(self):
-        ones = self.onesDice.roll - 1
-        tens = self.tensDice.roll * 10
-        rollValue = (tens * 10) + ones
+        ones = self.onesDice.roll() - 1
+        tens = self.tensDice.roll() * 10
+        rollValue = tens + ones
         return rollValue
 
 
